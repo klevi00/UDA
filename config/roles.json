@@ -1,0 +1,61 @@
+{
+  "roles": [
+    {
+      "name": "Autista",
+      "permissions": [
+        "read_current_user",
+        "update_own_profile",
+        "create_viaggio",
+        "read_own_viaggi",
+        "update_own_viaggio",
+        "delete_own_viaggio",
+        "read_prenotazioni_viaggio",
+        "update_stato_prenotazione",
+        "create_feedback_passeggero",
+        "read_feedback"
+      ]
+    },
+    {
+      "name": "Passeggero",
+      "permissions": [
+        "read_current_user",
+        "update_own_profile",
+        "search_viaggi",
+        "read_viaggio",
+        "create_prenotazione",
+        "read_own_prenotazioni",
+        "delete_own_prenotazione",
+        "create_feedback_autista",
+        "read_feedback"
+      ]
+    },
+    {
+      "name": "Admin",
+      "permissions": [
+        "read_all_users",
+        "read_current_user",
+        "update_own_profile",
+        "read_user_by_id",
+        "update_user",
+        "delete_user",
+        "create_viaggio",
+        "search_viaggi",
+        "read_viaggio",
+        "read_own_viaggi",
+        "update_own_viaggio",
+        "delete_own_viaggio",
+        "read_all_viaggi",
+        "delete_any_viaggio",
+        "create_prenotazione",
+        "read_own_prenotazioni",
+        "read_prenotazioni_viaggio",
+        "update_stato_prenotazione",
+        "delete_own_prenotazione",
+        "create_feedback_autista",
+        "create_feedback_passeggero",
+        "read_feedback",
+        "delete_feedback"
+      ]
+    }
+  ]
+}
